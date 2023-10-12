@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GtkPostException">
+</Property><Property Name="Solution File" Value="C:\Users\Administrator\Documents\Projects\GtkPostException\GtkPostException.sln">
+</Property><Property Name="Date" Value="sábado, 23 de abril de 2011">
+</Property><Property Name="Time" Value="23:09 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GtkPostException.sln" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException.sln">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\GtkPostException.csproj" Description="Project file successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\GtkPostException.csproj">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\gtk-gui\generated.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\gtk-gui\generated.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\MainWindow.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\MainWindow.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\gtk-gui\MainWindow.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\gtk-gui\MainWindow.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\Main.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\Main.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\Book.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\Book.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\BooksDataManager.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\BooksDataManager.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\DataBaseException.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\DataBaseException.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\Logger.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\Logger.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\RuntimeException.cs" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\RuntimeException.cs">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\gtk-gui\gui.stetic" Description="File successfully backed up as C:\Users\Administrator\Documents\Projects\GtkPostException\Backup\GtkPostException\gtk-gui\gui.stetic">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\GtkPostException.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GtkPostException" Source="GtkPostException\GtkPostException.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GtkPostException.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GtkPostException.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GtkPostException" Source="GtkPostException\GtkPostException.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
