@@ -16,19 +16,20 @@ a.RetVal = true;
 }
 protected virtual void ExecuteQuery (object sender, System.EventArgs e)
 {
-try{
-AddColumns(GridOutput);
-GridOutput.Model = CreateModel();
-lbmsg.Text += "Consulta ejecutada";
-
-}catch(GtkPostException.DataBaseException ex){
-MessageBox(ex.Message);
-
-}
-catch(GtkPostException.RuntimeException ex){
-MessageBox(ex.Message);	
-
-}
+    try
+    {
+        AddColumns(GridOutput);
+        GridOutput.Model = CreateModel();
+        lbmsg.Text += "Consulta ejecutada";
+    }
+    catch(GtkPostException.DataBaseException ex)
+    {
+        MessageBox(ex.Message);
+    }
+    catch(GtkPostException.RuntimeException ex)
+    {
+        MessageBox(ex.Message);	
+    }
 }
 
 void MessageBox(string messageText){

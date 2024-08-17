@@ -21,88 +21,89 @@ public partial class MainWindow
 
 	private global::Gtk.TreeView GridOutput;
 
-	protected virtual void Build ()
+	protected virtual void Build()
 	{
-		global::Stetic.Gui.Initialize (this);
+		global::Stetic.Gui.Initialize(this);
 		// Widget MainWindow
 		this.Name = "MainWindow";
-		this.Title = global::Mono.Unix.Catalog.GetString ("GTKException");
+		this.Title = global::Mono.Unix.Catalog.GetString("GTKException");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
-		this.vbox1 = new global::Gtk.VBox ();
+		this.vbox1 = new global::Gtk.VBox();
 		this.vbox1.Name = "vbox1";
 		this.vbox1.Spacing = 6;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.label2 = new global::Gtk.Label ();
+		this.label2 = new global::Gtk.Label();
 		this.label2.Name = "label2";
-		this.label2.LabelProp = global::Mono.Unix.Catalog.GetString ("Teclear Connection String");
-		this.vbox1.Add (this.label2);
+		this.label2.LabelProp = global::Mono.Unix.Catalog.GetString("Teclear Connection String");
+		this.vbox1.Add(this.label2);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.label2]));
 		w1.Position = 0;
 		w1.Expand = false;
 		w1.Fill = false;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.GtkScrolledWindow1 = new global::Gtk.ScrolledWindow ();
+		this.GtkScrolledWindow1 = new global::Gtk.ScrolledWindow();
 		this.GtkScrolledWindow1.Name = "GtkScrolledWindow1";
 		this.GtkScrolledWindow1.ShadowType = ((global::Gtk.ShadowType)(1));
 		// Container child GtkScrolledWindow1.Gtk.Container+ContainerChild
-		this.txtConnStr = new global::Gtk.TextView ();
-		this.txtConnStr.Buffer.Text = "Server=127.0.0.1;Port=5432;User Id=postgres;Password=Pa$$w0rd;DataBase=curry";
+		this.txtConnStr = new global::Gtk.TextView();
+		this.txtConnStr.Buffer.Text = global::Mono.Unix.Catalog.GetString("Server=127.0.0.1;Port=5432;User Id=postgres;Password=Pa$$w0rd;DataBase=curry");
 		this.txtConnStr.CanFocus = true;
 		this.txtConnStr.Name = "txtConnStr";
 		this.txtConnStr.WrapMode = ((global::Gtk.WrapMode)(2));
-		this.GtkScrolledWindow1.Add (this.txtConnStr);
-		this.vbox1.Add (this.GtkScrolledWindow1);
+		this.GtkScrolledWindow1.Add(this.txtConnStr);
+		this.vbox1.Add(this.GtkScrolledWindow1);
 		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.GtkScrolledWindow1]));
 		w3.Position = 1;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.hbox1 = new global::Gtk.HBox ();
+		this.hbox1 = new global::Gtk.HBox();
 		this.hbox1.Name = "hbox1";
 		this.hbox1.Spacing = 6;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.btnOk = new global::Gtk.Button ();
+		this.btnOk = new global::Gtk.Button();
 		this.btnOk.CanFocus = true;
 		this.btnOk.Name = "btnOk";
 		this.btnOk.UseStock = true;
 		this.btnOk.UseUnderline = true;
 		this.btnOk.Label = "gtk-ok";
-		this.hbox1.Add (this.btnOk);
+		this.hbox1.Add(this.btnOk);
 		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.btnOk]));
 		w4.Position = 0;
 		w4.Expand = false;
 		w4.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.lbmsg = new global::Gtk.Label ();
+		this.lbmsg = new global::Gtk.Label();
 		this.lbmsg.Name = "lbmsg";
-		this.lbmsg.LabelProp = global::Mono.Unix.Catalog.GetString ("Ouput:");
-		this.hbox1.Add (this.lbmsg);
+		this.lbmsg.LabelProp = global::Mono.Unix.Catalog.GetString("Ouput:");
+		this.hbox1.Add(this.lbmsg);
 		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.lbmsg]));
 		w5.Position = 1;
-		this.vbox1.Add (this.hbox1);
+		this.vbox1.Add(this.hbox1);
 		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox1]));
 		w6.Position = 2;
 		w6.Expand = false;
 		w6.Fill = false;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
+		this.GtkScrolledWindow = new global::Gtk.ScrolledWindow();
 		this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 		this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
 		// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
-		this.GridOutput = new global::Gtk.TreeView ();
+		this.GridOutput = new global::Gtk.TreeView();
 		this.GridOutput.CanFocus = true;
 		this.GridOutput.Name = "GridOutput";
-		this.GtkScrolledWindow.Add (this.GridOutput);
-		this.vbox1.Add (this.GtkScrolledWindow);
+		this.GtkScrolledWindow.Add(this.GridOutput);
+		this.vbox1.Add(this.GtkScrolledWindow);
 		global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.GtkScrolledWindow]));
 		w8.Position = 3;
-		this.Add (this.vbox1);
-		if ((this.Child != null)) {
-			this.Child.ShowAll ();
+		this.Add(this.vbox1);
+		if ((this.Child != null))
+		{
+			this.Child.ShowAll();
 		}
 		this.DefaultWidth = 448;
 		this.DefaultHeight = 300;
-		this.Show ();
-		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
-		this.btnOk.Clicked += new global::System.EventHandler (this.ExecuteQuery);
+		this.Show();
+		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.btnOk.Clicked += new global::System.EventHandler(this.ExecuteQuery);
 	}
 }
