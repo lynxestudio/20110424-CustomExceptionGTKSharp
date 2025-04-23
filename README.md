@@ -1,4 +1,4 @@
-# Uso de custom exceptions en aplicaciones GTK# con Monodevelop
+# Uso de custom exceptions en aplicaciones GTK#
 <p align="justify">
 Hace unos días publiqué una entrada que mostraba el uso de excepciones personalizadas y como ejemplo de esa técnica un proyecto de consola de MonoDevelop que obtenía registros de una tabla en una base de datos PostgreSQL, derivado de ese ejemplo hice una aplicación en GTK# la cual muestra los mismos conceptos pero ahora con un formulario gráfico, por lo que hice algunas modificaciones con respecto al proyecto de consola de manera que pueda entenderse de una mejor manera.
 Los pasos son:
