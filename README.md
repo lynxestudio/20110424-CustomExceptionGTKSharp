@@ -31,8 +31,6 @@ Los pasos son:
 <p>
 Cambiamos el código de la clase BooksDataManager en el método SelectAll para que reciba un parámetro string con el valor de la Connection String recibida desde la interfaz de usuario. Aquí el listado completo de la clase:
 </p>
-<b>Listing 1. La clase para acceso a datos.</b>
-<img src="images/BooksDataManager.png">
 <p>
 7.Agregamos al evento Clicked del Botón el metodo ExecuteQuery, cuyo código se muestra a continuación:
 </p>
